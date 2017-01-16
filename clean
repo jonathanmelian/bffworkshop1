@@ -1,0 +1,5 @@
+#Clean script to remove stuff added for the bff workshop
+
+#Removes the registry added
+echo Removing default registry
+nrm del default
