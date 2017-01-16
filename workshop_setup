@@ -1,0 +1,31 @@
+#Script to install the required things needed to run workshop.js
+
+
+#Installing nodejs
+echo Installing nodejs
+sudo apt-get install -y nodejs
+
+#Updating npm which is included on node js
+echo Updating npm
+npm install npm@latest -g
+
+#Installing n
+echo Installing n
+sudo npm install n -g
+
+#Switching node version to v6.9.1 which is the latest and used
+#to develop this workshop
+echo switching node version
+sudo n 6.9.1
+
+#Installing nrm to add default registry 
+echo Installing nrm to add default registry
+npm install nrm -g
+
+#Adding the default node registry
+echo Adding the default node registry
+nrm add default https://registry.npmjs.org/
+
+#installing npm dependencies
+echo installing npm dependencies
+npm install

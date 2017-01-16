@@ -1,0 +1,11 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "First NodeJS workshop",
+  "author": "Jonathan Melian",
+  "dependencies": {
+    "node-fetch": "*",
+    "command-line-args": "*"
+},
+  "license": "MIT"
+}
